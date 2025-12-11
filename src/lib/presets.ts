@@ -37,10 +37,10 @@ export const PRESETS: Preset[] = [
     description: 'Gentle enhancement for faces, preserves skin tones',
     icon: '👤',
     params: {
-      clipLimit: 1.5,
-      tileGridSize: 8,
+      clipLimit: 1.1,
+      tileGridSize: 16,
     },
-    colormap: 'grayscale',
+    colormap: 'copper',
   },
   {
     id: 'landscape',
@@ -48,8 +48,8 @@ export const PRESETS: Preset[] = [
     description: 'Enhanced detail for outdoor scenes',
     icon: '🏞️',
     params: {
-      clipLimit: 2.8,
-      tileGridSize: 16,
+      clipLimit: 2.5,
+      tileGridSize: 12,
     },
     colormap: 'viridis',
   },
@@ -59,7 +59,7 @@ export const PRESETS: Preset[] = [
     description: 'Maximum enhancement for dark images',
     icon: '🌙',
     params: {
-      clipLimit: 4.0,
+      clipLimit: 5.0,
       tileGridSize: 4,
     },
     colormap: 'inferno',
@@ -69,11 +69,8 @@ export const PRESETS: Preset[] = [
     name: 'Medical / X-Ray',
     description: 'Optimized for medical imaging',
     icon: '🏥',
-    params: {
-      clipLimit: 3.0,
-      tileGridSize: 8,
-    },
-    colormap: 'hot',
+    params: { clipLimit: 1.8, tileGridSize: 8 },
+    colormap: 'grayscale',
   },
   {
     id: 'scientific',
@@ -93,7 +90,7 @@ export const PRESETS: Preset[] = [
     icon: '✨',
     params: {
       clipLimit: 1.0,
-      tileGridSize: 8,
+      tileGridSize: 12,
     },
     colormap: 'grayscale',
   },
@@ -103,7 +100,7 @@ export const PRESETS: Preset[] = [
     description: 'High contrast, artistic effect',
     icon: '🎭',
     params: {
-      clipLimit: 5.0,
+      clipLimit: 6.0,
       tileGridSize: 4,
     },
     colormap: 'magma',
@@ -135,11 +132,8 @@ export const PRESETS: Preset[] = [
     name: 'Forensic Detail',
     description: 'Reveals hidden patterns and subtle textures',
     icon: '🕵️‍♂️',
-    params: {
-      clipLimit: 4.5,
-      tileGridSize: 4,
-    },
-    colormap: 'jet',
+    params: { clipLimit: 6.0, tileGridSize: 4 },
+    colormap: 'inferno',
   },
   {
     id: 'underwater',
@@ -161,7 +155,7 @@ export const PRESETS: Preset[] = [
       clipLimit: 3.5,
       tileGridSize: 8,
     },
-    colormap: 'inferno',
+    colormap: 'hot',
   },
   {
     id: 'ctscan',
@@ -217,6 +211,17 @@ export const PRESETS: Preset[] = [
       tileGridSize: 8,
     },
     colormap: 'grayscale',
+  },
+  {
+    id: 'contour',
+    name: 'Contour Mapping',
+    description: 'Highlights intensity boundaries for topographic and bathymetric visualization',
+    icon: '📊',
+    params: {
+      clipLimit: 3.2,
+      tileGridSize: 8,
+    },
+    colormap: 'jet',
   },
 
 ];
