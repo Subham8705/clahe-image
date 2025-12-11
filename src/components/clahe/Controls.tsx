@@ -72,7 +72,8 @@ export function Controls({
           )} />
         </CollapsibleTrigger>
         <CollapsibleContent className="mt-2">
-          <div className="grid grid-cols-2 gap-2">
+          {/* Show 8 presets per visible frame: 2 columns × 4 rows. Scroll vertically to access the rest. */}
+          <div className="grid grid-cols-2 gap-2 max-h-72 overflow-y-auto pr-1">
             {PRESETS.map((preset) => (
               <button
                 key={preset.id}
