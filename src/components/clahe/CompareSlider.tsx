@@ -116,13 +116,13 @@ export function CompareSlider({ originalUrl, processedUrl, className }: CompareS
 
       {/* Labels */}
       <div className="absolute top-4 left-4 z-20">
-        <span className="px-2 py-1 text-xs font-mono bg-background/80 backdrop-blur-sm rounded">
-          Original
+        <span className="px-2 py-1 text-xs font-mono bg-primary/80 backdrop-blur-sm rounded text-primary-foreground">
+          CLAHE
         </span>
       </div>
       <div className="absolute top-4 right-4 z-20">
-        <span className="px-2 py-1 text-xs font-mono bg-primary/80 backdrop-blur-sm rounded text-primary-foreground">
-          CLAHE
+        <span className="px-2 py-1 text-xs font-mono bg-background/80 backdrop-blur-sm rounded">
+          Original
         </span>
       </div>
     </div>
