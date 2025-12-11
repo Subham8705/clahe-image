@@ -145,7 +145,7 @@ export const PRESETS: Preset[] = [
     id: 'underwater',
     name: 'Underwater',
     description: 'Enhances low-contrast underwater photography',
-    icon: '🐠',
+    icon: '🤿',
     params: {
       clipLimit: 3.0,
       tileGridSize: 8,
@@ -200,7 +200,7 @@ export const PRESETS: Preset[] = [
     id: 'cyberpunk',
     name: 'Cyberpunk',
     description: 'High contrast neon-tinted effect',
-    icon: '💜',
+    icon: '🤖',
     params: {
       clipLimit: 4.5,
       tileGridSize: 6,
