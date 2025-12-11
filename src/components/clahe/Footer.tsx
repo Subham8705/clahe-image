@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="border-t border-border/50 px-6 py-4">
       <div className="flex flex-col sm:flex-row items-center justify-between gap-4 max-w-screen-2xl mx-auto">
         <p className="text-xs text-muted-foreground text-center sm:text-left">
-          Built with React • JavaScript CLAHE implementation
+          Built with OpenCV.js CLAHE implementation
         </p>
           <p className="text-xs text-muted-foreground text-center sm:text-left">Made by <span className="font-medium">Subham</span></p>
         
